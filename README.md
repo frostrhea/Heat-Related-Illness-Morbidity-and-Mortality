@@ -4,6 +4,20 @@ This NetLogo simulation models the impact of heat exposure on morbidity and mort
 
 This project was developed as part of the requirements for the subject CSC133 – Modelling and Simulation in MSU-IIT. It is submitted along with my paper.
 
+## Study Background
+
+This study aims to replicate the results of an [existing data](https://doi.org/10.3390/ijerph13060551)  on heat-related illness (HRI) within the Florida population, stratified by month. It uses annual data from 2005–2012 and categorizes cases into two groups: non-work related HRI and work-related HRI. For this project, only non-work related HRI data are used for greater relevance and application to public health outcomes.  
+**Total cases:**  
+- Emergency department (ED) visits: 27,028  
+- Hospitalizations: 5,324  
+- Deaths: 158  
+
+![Model Diagram](reference.png)
+
+*Fig. 1 The data results of a comprehensive study of non-work related HRI in Florida, with emergency department (ED) visits, hospitalizations, and deaths. All rates are per 100,000 person-years, with morbidity rates (left y-axis) that are twice as high as mortality rates (right y-axis).*
+
+It should be noted that the original study excluded individuals who received care at non-hospital or outside ED facilities (such as urgent care centers or doctor's offices) or those not receiving care but still alive. This simulation considers those cases as well, so a higher number of cases is expected.
+
 
 ## Features
 
